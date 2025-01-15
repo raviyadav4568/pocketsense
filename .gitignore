@@ -1,0 +1,74 @@
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3  # If using SQLite, otherwise ignore the actual DB file if using PostgreSQL
+media/
+static/
+*.mo
+*.db
+*.sqlite3
+*.log
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Python virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dependency directories
+node_modules/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py  # Keep init.py in migrations
+
+# Coverage reports
+.coverage
+*.coveragerc
+coverage.xml
+nosetests.xml
+test_*.xml
+*.prof
+
+# pytest
+.pytest_cache/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# PyInstaller
+*.spec
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Sphinx documentation
+_docs/_build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# local settings
+local_settings.py
